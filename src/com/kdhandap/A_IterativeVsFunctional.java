@@ -23,7 +23,6 @@ public class A_IterativeVsFunctional {
                       .collect(toSet());
     }
 
-
     private static List<Integer> factorsOfRecursive(int number) {
         return IntStream.rangeClosed(1, number)
                         .filter( i -> number % i == 0)
