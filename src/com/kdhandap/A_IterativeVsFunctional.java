@@ -10,7 +10,7 @@ public class A_IterativeVsFunctional {
     /* Lets now compare the traditional iterative and the much nicer functional way of java
      */
     public static void main(String[] args) {
-        // Given a list of numbers, return the list of all faactors
+        // Given a list of numbers, return the list of all factors
 
         List<Integer> numbers = Arrays.asList(2,5,17,16,21);
         System.out.println("Iterative  :" + factorsOfIterative(numbers));
