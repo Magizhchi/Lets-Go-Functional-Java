@@ -5,6 +5,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class G_Merge {
+
+    /* In this example we will look at merge function which is a much nicer way to perform the computeIfAbsent and computeIfPresent together into one function
+    We will take the same example as the previous one but will add a new Hero 'Hulk' to it at runtime.
+     */
     private static Map<String, Integer> scores = new HashMap<>();
 
     public static void main(String[] args) {
