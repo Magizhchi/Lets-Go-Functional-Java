@@ -31,12 +31,15 @@ public class I_Iterating_Over_Maps {
 
 //        Functional Style
 
+        System.out.println("Iterating over Keys");
         scores.keySet()
               .forEach(System.out::println);
 
+        System.out.println("Iterating over Values");
         scores.values()
               .forEach(System.out::println);
 
+        System.out.println("Iterating over Keys and Values");
         scores.forEach((name, score) -> System.out.println(name + "----" + score));
 
     }
