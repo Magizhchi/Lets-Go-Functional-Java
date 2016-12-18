@@ -18,5 +18,10 @@ public class J_Primitive_Array {
             Stream.of(children)
                     .forEach(System.out::println);
         }
+
+        // However we can also create streams out of a single Value or argument
+        // This might seem a bit unintuitive at First but refer to the next Lesson to understand a scenario where this might be useful.
+        Stream.of(5)
+              .forEach(System.out::println);
     }
 }
