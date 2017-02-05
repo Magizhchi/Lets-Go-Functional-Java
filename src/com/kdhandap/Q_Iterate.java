@@ -22,6 +22,7 @@ public class Q_Iterate {
     We can do this using the generate function and a custom class like how we saw in the previous lesson but we surely can do better cant we.
      In this lesson we will compare both the ways of doing this. the commented portion of code will correspond to the generate Method and the other will correspond to the iterate method
      */
+
     public static void main(String[] args) {
 //        //Using the Generate method
 //        Generator generator = new Generator(15);
